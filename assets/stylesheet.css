@@ -1,0 +1,37 @@
+.calculator-wrapper {
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.calc-display {
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 12px;
+  text-align: right;
+  padding: 10px 20px;
+}
+
+.calc-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.operators-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-btn {
+  border: 2px solid #000;
+  border-radius: 12px;
+  padding: 10px 20px;
+  width: 50px;
+  background-color: #e6e6e6;
+  margin: 2px;
+  font-weight: 700;
+}
+
+.func-btn {
+  width: 100px;
+}
