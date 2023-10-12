@@ -2,7 +2,8 @@
 const inputValue = document.querySelector(".calc-num");
 inputValue.addEventListener("click", function (e) {
   if (e.target && e.target.matches("button.num-btn")) {
-    console.log(e.target.value);
+    const displayValue = e.target.value;
+    document.querySelector(".calc-display").textContent += displayValue;
   }
 });
 
