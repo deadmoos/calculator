@@ -4,7 +4,8 @@
   padding: 10px;
 }
 
-.calc-display {
+.calc-display-main,
+.calc-display-sub {
   height: 50px;
   border: 2px solid #000;
   border-radius: 12px;
@@ -32,6 +33,7 @@
   font-weight: 700;
 }
 
-.func-btn {
+.func-btn-clr,
+.func-btn-dlt {
   width: 100px;
 }

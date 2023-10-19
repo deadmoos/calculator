@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="assets/stylesheet.css">
 </head>
 <body>
     <div class="page-wrapper">
         <div class="calculator-wrapper">
-            <div class="calc-display">
+            <div class="calc-display-sub"></div>
 
-            </div>
+            <div class="calc-display-main"></div>
             <div class="calc-functions">
-                <button class="func-btn calc-btn">Clear</button>
-                <button class="func-btn calc-btn">Delete</button>
+                <button class="func-btn-clr calc-btn">Clear</button>
+                <button class="func-btn-dlt calc-btn">Delete</button>
             </div>
             <div class="calc-input">
                 <div class="calc-num">
@@ -34,17 +34,17 @@
                         <button value="1" class="num-btn calc-btn">1</button>
                     </div>
                     <div class="row-4">
-                        <button class="dec-btn calc-btn">.</button>
+                        <button value="." class="dec-btn calc-btn">.</button>
                         <button value="0" class="num-btn calc-btn">0</button>
-                        <button class="equal-btn calc-btn">=</button>
+                        <button value="=" class="equal-btn calc-btn">=</button>
                     </div>
                 </div>
                 <div class="calc-operations">
                     <div class="operators-container">
-                        <button class="op-btn calc-btn">+</button>
-                        <button class="op-btn calc-btn">-</button>
-                        <button class="op-btn calc-btn">/</button>
-                        <button class="op-btn calc-btn">*</button>
+                        <button value="+" class="op-btn calc-btn">+</button>
+                        <button value="-" class="op-btn calc-btn">-</button>
+                        <button value="/" class="op-btn calc-btn">/</button>
+                        <button value="*" class="op-btn calc-btn">*</button>
                     </div>
                 </div>                
             </div>
